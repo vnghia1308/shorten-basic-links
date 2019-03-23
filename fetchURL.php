@@ -19,7 +19,7 @@ if(isset($_GET["o"]))
 		echo "<p>Liên kết không tồn tại!</p>";
 }
 else
-	echo "<p>Không dữ liệu liên kết được cung cấp!</p>";
+	echo "<p>Không có dữ liệu liên kết nào được cung cấp!</p>";
 
 mysqli_close($db);
 ?>
